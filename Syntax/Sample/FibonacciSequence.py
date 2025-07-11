@@ -32,3 +32,13 @@ print(b)
 for _ in range(number):
     a, b = b, a + b
     print(b)
+
+
+
+
+####################Sample 2 by list
+'''تا  20 تا عدد فیبوناچی'''
+list1 = [0,1]
+while len(list1) <= 20:
+    list1.append(list1[-1] + list1[-2])
+print(list1)
